@@ -1,0 +1,81 @@
+#Contact {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  color: $colorb;
+
+  box-shadow: 4px 4px 4px 4px $colorb;
+
+  #d1 {
+    width: 100%;
+    height: 100%;
+    background-color: $bgcolor;
+    padding: 12% 0;
+
+    > p {
+      text-align: center;
+      padding: 2rem;
+      font: $headings;
+      letter-spacing: 0.1rem;
+      text-decoration: underline;
+    }
+    > form {
+      width: 100%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 2vmax 8vmax;
+
+      > input {
+        width: 80%;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        border: none;
+        color: $colorb;
+        border-radius: 5px;
+        font: $text1;
+        background-color: $bgcolor;
+        outline: none;
+        box-shadow: 4px 4px 4px 0 $colorb;
+        transition: 0.2s ease-in;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+      > button {
+        margin-top: 1.5rem;
+        width: 80%;
+        padding: 1rem;
+        border-radius: 5px;
+        border: none;
+        font: $text1;
+        color: $colorb;
+        background-color: $colorw;
+        outline: none;
+        box-shadow: 4px 4px 4px 0 $colorb;
+        transition: 0.4s linear;
+        cursor: pointer;
+        &:hover {
+          background-color: $colorb;
+          box-shadow: 4px 4px 4px 0 $colorw;
+          transform: scale(1.05);
+          color: $colorw;
+        }
+      }
+    }
+  }
+  #d2 {
+    width: 100%;
+    height: 100%;
+    background-color: $colorb;
+    padding: 5rem 5rem;
+    > img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 0 20px $colorb) hue-rotate(65deg);
+    }
+  }
+}

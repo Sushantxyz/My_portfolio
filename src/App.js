@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import {Header,Headerphone} from "./components/header";
+import {Work} from "./components/work.jsx";
+import {Projects} from "./components/Projects.jsx";
+import {Servics} from "./components/Servics.jsx";
+import {Contact} from "./components/Contact.jsx";
+import {Testomonial} from "./components/Testomonial.jsx";
+import {Footer} from "./components/Footer.jsx";
+import {Home} from "./components/home.jsx";
+import { Toaster } from "react-hot-toast";
+import { useState } from "react";
+// import "./styles/navphone.scss";
+
+import "./styles/App.scss";
+
+
 
 function App() {
+
+  const [menuopen,setmenuopen]=useState(false);
+  // console.log(menuopen);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <Headerphone menuopen={menuopen} setmenuopen={setmenuopen}/>
+      <Header menuopen={menuopen} setmenuopen={setmenuopen}/>
+      <Home />
+      <Work/>
+      <Projects/>
+      <Servics/>
+      <Testomonial/>
+      <Contact/>
+      <Footer/>
+      <Toaster/>
+
+
+
+    </>
   );
 }
 

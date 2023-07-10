@@ -1,0 +1,89 @@
+#service-outer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $bgcolor;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
+}
+#services {
+    font:$text1;
+  > :nth-child(1) {
+    > p {
+      display: grid;
+      > img {
+        display: block;
+        width: 6vmax;
+        padding: 0.5rem;
+      }
+    }
+  }
+  > :nth-child(2) {
+    > p {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      > img {
+        width: 6vmax;
+        padding: 0.5rem;
+      }
+    }
+  }
+  > :nth-child(3) {
+    > p {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      > img {
+        width: 6vmax;
+        padding: 0.5rem;
+      }
+    }
+  }
+  > :nth-child(4) {
+    > p {
+      display: grid;
+      gap: 1vmax;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      > img {
+        width: 6vmax;
+        padding: 0.5rem;
+      }
+    }
+  }
+  width: 100%;
+  height: 70%;
+  background-color: $colorw;
+  color: $colorw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  > div {
+    background-color: $colorb;
+    color: $colorw;
+    border: 2px solid $colorw;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    &:hover {
+      box-shadow: 0 0 5px 20px $colorb;
+    }
+    > svg {
+      font-size: 3rem;
+    }
+  }
+  .Box-1 {
+    grid-column: 1 / 2;
+    grid-row: 1/3;
+  }
+
+  .Box-4 {
+    grid-column: 2 / 4;
+    grid-row: 2/2;
+  }
+}

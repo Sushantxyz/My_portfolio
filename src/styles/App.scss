@@ -1,0 +1,24 @@
+@import "./colors.scss";
+@import "./Header.scss";
+@import "./Home.scss";
+@import "./Work.scss";
+@import "./Projects.scss";
+@import "./Servics.scss";
+@import "./Contact.scss";
+@import "./Testomonial.scss";
+@import "./Footer.scss";
+@import "./mediaquery.scss";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    // background-color: rgb(250, 179, 250);
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.disablesbtn{
+    cursor: not-allowed !important;
+    background-color: rgb(149, 148, 148) !important;
+}
