@@ -28,13 +28,15 @@ export const Projects = () => {
             <p>Technology Used : React & ChakraUI</p>
           </div>
         </div>
-        {/* <div className="left pro">
-          <div>
-            <h3>Project5</h3>
-            <p>Date:2/3/2023</p>
-          </div>
-        </div> */}
+        
       </div>
     </div>
   );
 };
+
+// {/* <div className="left pro">
+//           <div>
+//             <h3>Project5</h3>
+//             <p>Date:2/3/2023</p>
+//           </div>
+//         </div> */}
