@@ -1,8 +1,9 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import myimg1 from "../assets/img1.jpg";
-import myimg2 from "../assets/img2.jpg";
-import myimg4 from "../assets/img4.webp";
+import cryptomation from "../assets/Crptomationpic.jpg";
+import videohub from "../assets/videohub.jpg";
+import myimg4 from "../assets/e-cartpic.jpg";
+import blogapp from "../assets/blogapp.jpg";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -23,7 +24,7 @@ export const Work = () => {
             autoPlay={true}
           >
             <div className="workitems">
-              <img src={myimg1} alt=""></img>
+              <img src={blogapp} alt=""></img>
               <section>
                 <h2>Blog-App(MERN STACK)</h2>
                 <p>
@@ -31,14 +32,14 @@ export const Work = () => {
                   MERN (MongoDB, Express.js, React, Node.js) stack for seamless
                   end-to-end functionality..
                 </p>
-                <a href="https://reactone-sushantxyz.vercel.app">
+                <a href="https://blogapp-frontend-psi.vercel.app/">
                   <button>View project</button>
                 </a>
               </section>
             </div>
 
             <div className="workitems">
-              <img src={myimg2} alt="" />
+              <img src={cryptomation} alt="" />
               <section>
                 <h2>CryptoMation</h2>
                 <p>
@@ -62,10 +63,13 @@ export const Work = () => {
             </div>
 
             <div className="workitems">
-              <img src={myimg2} alt="" />
+              <img src={videohub} alt="" />
               <section>
                 <h2>Video Hub</h2>
-                <p>Description : Video uploading and viewing platform.</p>
+                <p>
+                  Description : Video uploading and viewing platform. Build
+                  using Chakra UI.
+                </p>
                 <a href="https://videohub-beryl.vercel.app">
                   <button>View project</button>
                 </a>
