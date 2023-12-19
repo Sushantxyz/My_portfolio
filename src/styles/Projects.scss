@@ -1,9 +1,9 @@
 
 #projects{
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     background-color: $bgcolor;
-    border-top: 2px solid $colorw;
+    border-bottom: 2px solid $colorb;
     padding: 0% 10%;
     color: $colorb;
 
@@ -12,8 +12,8 @@
         display: flex;
         width: 100%;
         height: 100%;
-        // padding: 10rem 0;
-        margin-top:5%;
+        padding: 10% 0;
+        // margin-top:5%;
         flex-direction: column;
         justify-content: center;
 
@@ -22,9 +22,9 @@
             display: block;
             position: absolute;
             width: 6px;
-            height: 123vh;
+            height: 100%;
             background: $colorb;
-            top: -17.5%;
+            top: 0;
             right: 50%;
 
         }
@@ -37,6 +37,10 @@
             color: $colorw;
             position: relative;
             padding: 0 2rem 0 0;
+            transition: 0.3s ease-in;
+            &:hover{
+                transform: scale(1.02);
+            }
             &::after{
                 content: "";
                 position:absolute;

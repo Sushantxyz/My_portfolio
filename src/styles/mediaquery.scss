@@ -41,9 +41,9 @@
       display: block;
       position: absolute;
       width: 6px;
-      height: 80vh !important;
+      height: 100% ;
       background: #000;
-      top: -15% !important;
+      top: 0% ;
       right: 50%;
     }
   }
@@ -115,16 +115,16 @@
   .pro1 {
     top: 0;
     justify-content: flex-start;
-    height: 60vh !important;
+    min-height: 60vh;
 
     &::after {
       content: "";
       display: block;
       position: absolute;
       width: 6px;
-      height: 83vh !important;
+      height: 100% ;
       background: #000;
-      top: -19.5% !important;
+      top: 0% ;
       right: 50%;
     }
   }
@@ -275,7 +275,9 @@
     width: 100% !important;
     height: 40vmax !important;
   }
-
+#projects{
+  min-height: 60vh;
+}
   .pro1 {
     justify-content: space-around !important;
 
@@ -285,6 +287,9 @@
 
     > .pro {
       width: 97% !important;
+      margin-bottom: 1rem;
+      justify-content: space-around;
+
     }
   }
 
@@ -418,18 +423,17 @@
   }
   .pro1 {
     &::after {
-      min-height: 90vh !important;
-      top: -8% !important;
+      min-height: 70vh !important;
     }
     > .pro {
       width: 90% !important;
       > div {
         padding: 0rem !important;
         > h3 {
-          font-size: 1rem;
+          font-size: 3vmax !important;
         }
         > p {
-          font-size: 0.8rem;
+          font-size: 2vmax !important;
         }
       }
     }
@@ -448,13 +452,27 @@
 
     #services {
       display: grid;
+
       > :nth-child(1) {
         > p {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr;
           > img {
-            width: 7vmax;
+            width: 10vmax !important;
             padding: 0.5rem;
+          }
+        }
+      }
+      >div{
+       
+        >h2{
+          font: 600 3vmax "san-serif" !important;
+          padding:0 !important;
+        }
+        >p{
+
+          >img{
+            width: 8vmax !important;
           }
         }
       }

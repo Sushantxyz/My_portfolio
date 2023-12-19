@@ -4,7 +4,8 @@
   display: flex;
   color: $colorb;
 
-  box-shadow: 4px 4px 4px 4px $colorb;
+  border-bottom: 2px solid $colorb;
+  border-top: 2px solid $colorb;
 
   #d1 {
     width: 100%;

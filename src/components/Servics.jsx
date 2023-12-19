@@ -6,17 +6,17 @@ import css from "../assets/css trans.png";
 import js from "../assets/jstrans.webp";
 import react from "../assets/reacttrans.png";
 
-import nodejs from "../assets/nodetrans.png";
 import express from "../assets/expresstrans.png";
-import mongo from "../assets/mongotrans.png";
-import mysql from "../assets/mysqltrans.png";
+import mongo from "../assets/mongof.svg";
+import mysql from "../assets/mysqlf.svg";
 
-import python from "../assets/pythontrans.jpg";
-import cpp from "../assets/cpptrans.png";
-import c from "../assets/ctrans.png";
-import java from "../assets/javatrans.webp";
+import python from "../assets/pythonf.svg";
+import cpp from "../assets/cppf.svg";
+import c from "../assets/cf.svg";
+// import java from "../assets/javatrans.webp";
 
-
+import java from "../assets/javaf.svg"
+import nodejs from "../assets/nodel.svg"
 
 
 export const Servics = () => {
@@ -50,15 +50,15 @@ export const Servics = () => {
             whileInView={animations.whileInView}
             initial={animations.one}
             transition={{
-              delay: 0.2,
+              delay: 0.3,
             }}
           >
             <h2>Front-End Devlopement</h2>
             <p>
-                <img src={html} alt="" />
-                <img src={css} alt="" />
-                <img src={js} alt="" />
-                <img src={react} alt="" />
+                <img src={html} alt="html" />
+                <img src={css} alt="css" />
+                <img src={js} alt="js" />
+                <img src={react} alt="react" />
             </p>
           </motion.div>
           <motion.div

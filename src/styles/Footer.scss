@@ -1,15 +1,18 @@
+
+
 #footer {
   width: 100%;
   min-height: 25vh;
   display: flex;
+  padding: 1rem 0;
   justify-content: space-between;
   align-items: center;
   color: $colorb;
   background-color: $colorw;
-  border-top:2px solid $colorb;
+  box-shadow: 4px 4px 4px 4px $colorb;
   > div {
     height: 80%;
-    padding: 0 1rem;
+    padding: 0 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,39 +22,41 @@
       display: block;
       color: $colorw;
     }
-    &:nth-child(1) {
-      width: 50%;
-      border-right: 3px solid $colorb;
-      font:$text2;
+  }
+  #f1 {
+    text-align: center;
+    width: 50%;
+    font: $text2;
+  }
+  #f2 {
+    border-left: 3px solid $colorb;
+    border-right: 3px solid $colorb;
+    width: 100%;
+    margin: 1rem 0;
+    font: $text2;
+    > img {
+      margin: 2vmax 0;
+      width: 6vmax;
+      border-radius: 50%;
     }
-    &:nth-child(2) {
-      width: 100%;
-      > img {
-        margin: 1rem 0;
-        width: 5vmax;
-        border-radius: 50%;
-      }
-      font:$text2;
+  }
+  #f3 {
+    width: 50%;
+    > h3 {
+      margin-bottom: 1rem;
+      font: $text2;
     }
-    &:nth-child(3) {
-      width: 50%;
-      > h3 {
-        margin-bottom: 1rem;
-        font:$text2;
+    > div {
+      a {
+        font: $text1;
+        margin: 0.2rem 1rem;
+        display: inline-block;
+        text-decoration: none;
+        color: $colorb;
       }
-      > div {
-        a {
-          font:$text1;
-          margin: 0.2rem 1rem;
-          display: inline-block;
-          text-decoration: none;
-          color: $colorb;
-        }
-        > svg {
-          font-size: 1.5rem;
-        }
+      > svg {
+        font-size: 1rem;
       }
-      border-left: 3px solid $colorb;
     }
   }
 }

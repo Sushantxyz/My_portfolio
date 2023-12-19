@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import mypic from "../assets/mypics.png";
 import img1 from "../assets/waving1-removebg-preview (1).png";
 
 
@@ -42,8 +41,8 @@ export const Home = () => {
             <Typewriter
               options={{
                 strings: [
-                  "A Web-developer",
-                  "A Software developer",
+                  "A React Developer",
+                  "MERN stack developer",
                   "A CPP developer",
                 ],
                 autoStart: true,

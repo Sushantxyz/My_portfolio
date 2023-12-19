@@ -4,14 +4,14 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 export const Footer = () => {
   return (
     <div id="footer">
-      <div>
+      <div id="f1">
         <p>Thank You For Visiting!!! Have a Great Day.</p>
       </div>
-      <div>
+      <div id="f2">
         <img src={mypic} alt="mYpROFILEpIC" />
         <p>Sushant Prakash Jadhav</p>
       </div>
-      <div>
+      <div id="f3">
         <h3>Contact ME</h3>
         <div>
           <a href="https://www.linkedin.com/in/sushant-jadhav-135835204">Linkdin</a>

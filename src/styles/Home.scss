@@ -6,6 +6,7 @@
     background-color: $bgcolor;
     padding: 0 10%;
     color: $colorb;
+
     >#home1{
         width: 100%;
         height: 100%;
@@ -56,6 +57,7 @@
     }
 
     >#home2{
+        
         width: 100%;
         height: 100%;
         z-index: 5;
@@ -63,28 +65,43 @@
         justify-content: center;
         align-items: center;
         position: relative;
+        padding: 1rem 0;
         >img{
             width:50%;
             height: 50%;
             object-fit: contain;
             border-radius: 50%;
-            filter: drop-shadow(10px 10px 40px $colorb) hue-rotate(0deg);
-
+            filter: drop-shadow(10px 10px 40px $colorw) hue-rotate(0deg);
+            animation: updown 2s 0s infinite alternate linear ;
         }
         &::after{
             content: "";
             width: 25vmax;
             height: 25vmax;
-            // background-color: $midp;
-            background-color: $colorb;
-
+            
+            box-shadow: 2px 2px 4px black;
+            animation: updown 2s 0s infinite alternate linear ;
+            background-color: purple;
             position: absolute;
             z-index: -1;
             border-radius: 50%;
             top: 75px;
+            
         }
         
     }
     
 }
 
+
+@keyframes updown {
+    0%{
+        transform: translateY(10px);
+    }
+    // 50%{
+    //     transform: translateY(15px);
+    // }
+    100%{
+        transform: translateY(-20px);
+    }
+}

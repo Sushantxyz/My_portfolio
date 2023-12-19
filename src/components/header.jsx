@@ -11,11 +11,10 @@ export const Header = ({ menuopen, setmenuopen }) => {
           <a href="#work">Work</a>
           <a href="#projects">Projects</a>
           <a href="#service-outer">Skills</a>
-          <a href="#maint">Testomonial</a>
           <a href="#Contact">Contact Me</a>
         </div>
         <a href="mailto:sushantjadhav2620@gmail.com">
-          <button>Email</button>
+          <button>E-Mail</button>
         </a>
       </nav>
       <span id="burger">
@@ -38,10 +37,9 @@ export const Headerphone = ({ menuopen,setmenuopen }) => {
         <a href="#work" onClick={()=>setmenuopen(false)}>Work</a>
         <a href="#projects" onClick={()=>setmenuopen(false)}>Projects</a>
         <a href="#service-outer" onClick={()=>setmenuopen(false)}>Skills</a>
-        <a href="#maint" onClick={()=>setmenuopen(false)}>Testomonial</a>
         <a href="#Contact" onClick={()=>setmenuopen(false)}>Contact Me</a>
         <a href="mailto:sushantjadhav2620@gmail.com" onClick={()=>setmenuopen(false)}>
-          <button id="btn1">Email</button>
+          <button id="btn1">E-Mail</button>
         </a>
       </nav>
     </div>

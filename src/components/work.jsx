@@ -29,7 +29,7 @@ export const Work = () => {
                 <section>
                   <h2>Ablaze</h2>
                   <p>Description: Website of Ablaze Solution defining the services provided by company.</p>
-                  <a href="https://reactone-sushantxyz.vercel.app" target={"_blank"}>
+                  <a href="https://reactone-sushantxyz.vercel.app">
                     <button>View project</button>
                   </a>
                 </section>
@@ -68,6 +68,18 @@ export const Work = () => {
                   </a>
                 </section>
               </div>
+
+              <div className="workitems">
+                <img src={myimg4} alt="" />
+                <section>
+                  <h2>E-cart</h2>
+                  <p>Description: E-cart Using redux to handel the operations</p>
+                  <a href="https://e-cart-tawny.vercel.app">
+                    <button>View project</button>
+                  </a>
+                </section>
+              </div>
+
             </Carousel>
           </section>
         </div>

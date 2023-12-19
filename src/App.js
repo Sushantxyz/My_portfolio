@@ -3,7 +3,7 @@ import {Work} from "./components/work.jsx";
 import {Projects} from "./components/Projects.jsx";
 import {Servics} from "./components/Servics.jsx";
 import {Contact} from "./components/Contact.jsx";
-import {Testomonial} from "./components/Testomonial.jsx";
+// import {Testomonial} from "./components/Testomonial.jsx";
 import {Footer} from "./components/Footer.jsx";
 import {Home} from "./components/home.jsx";
 import { Toaster } from "react-hot-toast";
@@ -17,7 +17,6 @@ import "./styles/App.scss";
 function App() {
 
   const [menuopen,setmenuopen]=useState(false);
-  // console.log(menuopen);
 
   return (
     <>
@@ -28,13 +27,10 @@ function App() {
       <Work/>
       <Projects/>
       <Servics/>
-      <Testomonial/>
+      {/* <Testomonial/> */}
       <Contact/>
       <Footer/>
       <Toaster/>
-
-
-
     </>
   );
 }
