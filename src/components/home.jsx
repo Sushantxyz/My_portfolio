@@ -42,8 +42,8 @@ export const Home = () => {
               options={{
                 strings: [
                   "A React Developer",
-                  "MERN stack developer",
-                  "A CPP developer",
+                  "A MERN STACK Developer",
+                  "Intrested in Development Field",
                 ],
                 autoStart: true,
                 loop: true,

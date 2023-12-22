@@ -2,8 +2,9 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import cryptomation from "../assets/Crptomationpic.jpg";
 import videohub from "../assets/videohub.jpg";
-import myimg4 from "../assets/e-cartpic.jpg";
+import ecart from "../assets/e-cartpic.jpg";
 import blogapp from "../assets/blogapp.jpg";
+import portfolio from "../assets/portfoliopic.jpg"
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -52,7 +53,7 @@ export const Work = () => {
             </div>
 
             <div className="workitems">
-              <img src={myimg4} alt="" />
+              <img src={ecart} alt="" />
               <section>
                 <h2>E-cart</h2>
                 <p>Description: E-cart Using redux to handel the operations</p>
@@ -77,7 +78,7 @@ export const Work = () => {
             </div>
 
             <div className="workitems">
-              <img src={myimg4} alt="" />
+              <img src={portfolio} alt="" />
               <section>
                 <h2>PortFolio</h2>
                 <p>
