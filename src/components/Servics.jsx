@@ -15,9 +15,8 @@ import cpp from "../assets/cppf.svg";
 import c from "../assets/cf.svg";
 // import java from "../assets/javatrans.webp";
 
-import java from "../assets/javaf.svg"
-import nodejs from "../assets/nodel.svg"
-
+import java from "../assets/javaf.svg";
+import nodejs from "../assets/nodel.svg";
 
 export const Servics = () => {
   const animations = {
@@ -44,6 +43,7 @@ export const Servics = () => {
   return (
     <>
       <div id="service-outer">
+    <h1 style={{textDecoration:"underline"}} >Skills</h1>
         <div id="services">
           <motion.div
             className="Box-1"
@@ -55,10 +55,10 @@ export const Servics = () => {
           >
             <h2>Front-End Devlopement</h2>
             <p>
-                <img src={html} alt="html" />
-                <img src={css} alt="css" />
-                <img src={js} alt="js" />
-                <img src={react} alt="react" />
+              <img src={html} alt="html" />
+              <img src={css} alt="css" />
+              <img src={js} alt="js" />
+              <img src={react} alt="react" />
             </p>
           </motion.div>
           <motion.div
@@ -85,10 +85,10 @@ export const Servics = () => {
           >
             <h2>Database</h2>
             <p>
-                <img src={mysql} alt="" />
-                <img src={mongo} alt="" />
-                {/* <img src={c} alt="" /> */}
-                {/* <img src={java} alt="" /> */}
+              <img src={mysql} alt="" />
+              <img src={mongo} alt="" />
+              {/* <img src={c} alt="" /> */}
+              {/* <img src={java} alt="" /> */}
             </p>
           </motion.div>
 
@@ -102,10 +102,10 @@ export const Servics = () => {
           >
             <h2>Languages</h2>
             <p>
-                <img src={python} alt="" />
-                <img src={cpp} alt="" />
-                <img src={c} alt="" />
-                <img src={java} alt="" />
+              <img src={python} alt="" />
+              <img src={cpp} alt="" />
+              <img src={c} alt="" />
+              <img src={java} alt="" />
             </p>
           </motion.div>
         </div>

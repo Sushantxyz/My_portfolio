@@ -4,7 +4,7 @@ import cryptomation from "../assets/Crptomationpic.jpg";
 import videohub from "../assets/videohub.jpg";
 import ecart from "../assets/e-cartpic.jpg";
 import blogapp from "../assets/blogapp.jpg";
-import portfolio from "../assets/portfoliopic.jpg"
+import portfolio from "../assets/portfoliopic.jpg";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -20,7 +20,7 @@ export const Work = () => {
             showIndicators={true}
             showStatus={false}
             showThumbs={false}
-            interval={2000}
+            interval={3000}
             infiniteLoop={true}
             autoPlay={true}
           >
@@ -28,11 +28,21 @@ export const Work = () => {
               <img src={blogapp} alt=""></img>
               <section>
                 <h2>Blog-App(MERN STACK)</h2>
-                <p>
-                  Description: Developed a full-stack blog application using the
-                  MERN (MongoDB, Express.js, React, Node.js) stack for seamless
-                  end-to-end functionality..
-                </p>
+
+                <div>
+                  <ul>
+                    <li>
+                      Full Stack Applications enabling users to create update
+                      and delete the Posts.
+                    </li>
+                    <li>
+                      Used optimization techniques, Code splitting, Image Lazy
+                      Loading.
+                    </li>
+                    <li>Jwt tokens for user security</li>
+                    <li>Implimented Cloudinary as Media store.</li>
+                  </ul>
+                </div>
                 <a href="https://blogapp-frontend-psi.vercel.app/">
                   <button>View project</button>
                 </a>
@@ -43,9 +53,17 @@ export const Work = () => {
               <img src={cryptomation} alt="" />
               <section>
                 <h2>CryptoMation</h2>
-                <p>
-                  Description: Fetching Cryto Api and displaying it on device.
-                </p>
+                <div>
+                  <ul>
+                    <li>Fetching data from Api and Displaying data.</li>
+                    <li>React Single Page WebApp</li>
+                    <li>
+                      Utilized Chart.js for creating data visualization with
+                      real time data.
+                    </li>
+                    <li>Responsive Design.</li>
+                  </ul>
+                </div>
                 <a href="https://cryptomation-psi.vercel.app">
                   <button>View project</button>
                 </a>
@@ -56,7 +74,16 @@ export const Work = () => {
               <img src={ecart} alt="" />
               <section>
                 <h2>E-cart</h2>
-                <p>Description: E-cart Using redux to handel the operations</p>
+                <div>
+                  <ul>
+                    <li>React Single Page WebApp.</li>
+                    <li>
+                      Utilizing Redux for creating E-cart, with real time data
+                      updation.
+                    </li>
+                    <li>Responsive Design.</li>
+                  </ul>
+                </div>
                 <a href="https://e-cart-tawny.vercel.app">
                   <button>View project</button>
                 </a>
@@ -67,10 +94,18 @@ export const Work = () => {
               <img src={videohub} alt="" />
               <section>
                 <h2>Video Hub</h2>
-                <p>
-                  Description : Video uploading and viewing platform. Build
-                  using Chakra UI.
-                </p>
+                <div>
+                  <ul>
+                    <li>
+                      React Single Page WebApp for sharing and viewing videos.
+                    </li>
+                    <li>
+                      Utilizing Chakra-UI for creating beautiful and responsive
+                      website.
+                    </li>
+                    <li>Dual theme with beautiful Carousel.</li>
+                  </ul>
+                </div>
                 <a href="https://videohub-beryl.vercel.app">
                   <button>View project</button>
                 </a>
@@ -81,11 +116,16 @@ export const Work = () => {
               <img src={portfolio} alt="" />
               <section>
                 <h2>PortFolio</h2>
-                <p>
-                  Description: Prortfolio of myself ,my education,skills and
-                  other detais including projects that I have mad are included
-                  in the same.
-                </p>
+                <div>
+                  <ul>
+                    <li>
+                      Utlizing React's powerful libraries to produce beautiful
+                      animations.
+                    </li>
+                    <li>Website showcasing my work</li>
+                    <li>Firebased powered Contact form.</li>
+                  </ul>
+                </div>
                 <a href="https://my-portfolio-topaz-phi-91.vercel.app">
                   <button>View project</button>
                 </a>
