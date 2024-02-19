@@ -43,7 +43,7 @@ export const Home = () => {
                 strings: [
                   "A React Developer",
                   "A MERN STACK Developer",
-                  "Intrested in Development Field",
+                  "Passionate in Development Field",
                 ],
                 autoStart: true,
                 loop: true,

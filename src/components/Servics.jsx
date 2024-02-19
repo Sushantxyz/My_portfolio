@@ -27,7 +27,7 @@ export const Servics = () => {
     },
     one: {
       opacity: 0,
-      y: "-100%",
+      x: "-100%",
     },
     twoAndThree: {
       opacity: 0,

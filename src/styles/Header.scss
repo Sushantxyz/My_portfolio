@@ -1,130 +1,123 @@
+nav {
+  background-color: $bgcolor;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  padding: 0 10%;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  color: $colorb;
+  border-bottom: 2px solid $colorb;
 
+  > h1 {
+    font: 600 3rem "Roboto";
+  }
 
-nav{
-    background-color: $bgcolor;
+  > div {
     display: flex;
-    width: 100%;
-    height: 10vh;
-    padding: 0 10%;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    z-index: 10;
-    top: 0;
-    color: $colorb;
-    border-bottom:2px solid $colorb;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 3rem;
 
-    >h1{
-        font:600 3rem "Roboto";
+    > a {
+      text-decoration: none;
+      font: 600 1.2rem "Roboto";
+      transition: 0.2s ease-in;
+      color: $colorb;
+      &:hover {
+        scale: 1.2;
+      }
     }
+  }
 
-    >div{
-
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-end;
-        gap: 3rem;
-
-        >a{
-            text-decoration: none;
-            font:600 1.2rem "Roboto";
-            transition: 0.2s ease-in;
-            color: $colorb;
-            &:hover{
-                scale: 1.2;
-
-            }
-        }
+  > a {
+    button {
+      width: 5rem;
+      height: 2rem;
+      background-color: $colorb;
+      border: 2px solid $colorb;
+      color: $colorw;
+      font: 600 1rem "roboto";
+      transition: 0.2s ease-in;
+      backdrop-filter: 10px blur $colorb;
+      cursor: pointer;
+      &:hover {
+        background-color: $colorw;
+        color: $colorb;
+      }
     }
-
-    >a{
-        button{
-        width: 5rem;
-        height:2rem;
-        background-color: $colorb;
-        border: 2px solid $colorb;
-        color: $colorw;
-        font: 600 1rem "roboto";
-        transition: 0.2s ease-in;
-        backdrop-filter: 10px blur $colorb;
-        cursor: pointer;
-        &:hover{
-            background-color: $colorw;
-            color: $colorb;
-        }
-    }
-    }
+  }
 }
 
-#burger{
-    display: none;
-    >button{
-      color: $colorb;
-      background-color: $bgcolor;
-      display: block;
-        outline: none;
-        border: none;
-        padding: 0.4rem 0.4rem 0.2rem 0.4rem;
-        font-size: 2rem;
-        border-radius: 5px;
-        cursor: pointer; 
-        position: fixed;
-        top: 1rem;
-        z-index: 101;
-        right: 2rem;
-    }
+#burger {
+  display: none;
+  > button {
+    color: $colorb;
+    background-color: $bgcolor;
+    display: block;
+    outline: none;
+    border: none;
+    padding: 0.4rem 0.4rem 0.2rem 0.4rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    top: 1rem;
+    z-index: 101;
+    right: 2rem;
+  }
 }
 
 .hpheader {
-    >nav {
-      transition: all 0.6s;
-      transform: translateY(-200%);
-      background-color: $colorw ;
+  > nav {
+    transition: all 0.6s;
+    transform: translateY(-200%);
+    background-color: $colorw;
+    color: $colorb;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 5rem;
+    z-index: 100;
+
+    > h1 {
+      padding-bottom: 2rem;
       color: $colorb;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      height: 110vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 2rem 5rem;
-      z-index: 100;
-  
-      > h1 {
-        padding-bottom: 2rem;
-    color: $colorb;
+    }
+    > a {
+      transition: 0.3s ease;
+      color: $colorb;
 
+      padding: 1rem 0;
+      font: 600 1.5rem "roboto";
+      text-decoration: none;
+      &:hover {
+        transform: scale(1.2);
       }
-      > a {
-        transition: 0.3s ease;
-    color: $colorb;
-
-        padding: 1rem 0;
-        font: 600 1.5rem "roboto";
-        text-decoration: none;
+      > #btn1 {
+        z-index: 20;
+        background-color: $colorw;
+        color: $colorb;
+        font-size: 1.5rem;
+        width: 100px;
+        height: 40px;
         &:hover {
-          transform: scale(1.2);
-        }
-        > #btn1 {
-            z-index: 20;
-          background-color: $colorw;
-          color: $colorb;
-          font-size: 1.5rem;
-          width: 100px;
-          height: 40px;
-          &:hover {
-            transform: scale(1.1);
-          }
+          transform: scale(1.1);
         }
       }
     }
   }
-  
-  .hpheadercomes {
-    >nav{
-        transform: translateY(0%) ;
-    }
-  }
-  
+}
 
+.hpheadercomes {
+  > nav {
+    transform: translateY(0%);
+  }
+}
