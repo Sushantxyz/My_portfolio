@@ -1,6 +1,6 @@
-import {Header,Headerphone} from "./components/header";
-import {Work} from "./components/work.jsx";
+import {Header,Headerphone} from "./components/header.jsx";
 import {Projects} from "./components/Projects.jsx";
+import {Experience} from "./components/Experience.jsx";
 import {Servics} from "./components/Servics.jsx";
 import {Contact} from "./components/Contact.jsx";
 // import {Testomonial} from "./components/Testomonial.jsx";
@@ -24,10 +24,9 @@ function App() {
       <Headerphone menuopen={menuopen} setmenuopen={setmenuopen}/>
       <Header menuopen={menuopen} setmenuopen={setmenuopen}/>
       <Home />
-      <Work/>
+      <Experience/>
       <Projects/>
       <Servics/>
-      {/* <Testomonial/> */}
       <Contact/>
       <Footer/>
       <Toaster/>

@@ -72,29 +72,65 @@ export const workData = [
 ];
 
 export const projectData = [
-    {
-      name: "Portfolio",
-      technology: "Technology Used : React, Sass, Framer motion, FireBase",
-      cname: "left pro",
-    },
-    {
-      name: "Alaze",
-      technology: "Technology Used : React & Sass",
-      cname: "right pro",
-    },
-    {
-      name: "CrpytoMation",
-      technology: "Technology Used : React & ChakraUI",
-      cname: "left pro",
-    },
-    {
-      name: "Video Hub",
-      technology: "Technology Used : React & ChakraUI",
-      cname: "right pro",
-    },
-    {
-      name: "E-cart",
-      technology: "Technology Used : React & Redux",
-      cname: "left pro",
-    },
-  ];
+  {
+    name: "Portfolio",
+    technology: "Technology Used : React, Sass, Framer motion, FireBase",
+    cname: "left pro",
+  },
+  {
+    name: "Alaze",
+    technology: "Technology Used : React & Sass",
+    cname: "right pro",
+  },
+  {
+    name: "CrpytoMation",
+    technology: "Technology Used : React & ChakraUI",
+    cname: "left pro",
+  },
+  {
+    name: "Video Hub",
+    technology: "Technology Used : React & ChakraUI",
+    cname: "right pro",
+  },
+  {
+    name: "E-cart",
+    technology: "Technology Used : React & Redux",
+    cname: "left pro",
+  },
+];
+export const experience = [
+  {
+    name: "Codesis Technologies Pvt.Ltd",
+    date: "May 2024 - Present",
+    technology: "Technology Used : React, Next,js, Sass, TailwindCSS",
+    roleResponsibility: [
+      `Led small development teams to build scalable User and Admin dashboards, supporting platforms with 300K+ active users.`,
+
+      `Contributed to 6+ dashboard projects across 3+ prop trading firms, supporting both gamified and standard platforms for 
+  trader onboarding and evaluation.`,
+
+      `Implemented multi-stage trader evaluation systems including demo trading phases, performance targets, and qualification stages.`,
+
+      `Developed analytical dashboards to monitor trading plans, profits, expected returns, and other key performance insights.`,
+
+      `Built risk management dashboards to track trading practices, flag rule violations, evaluate trader behavior, and assist in 
+  payout decisions while processing millions of trades and large-scale trading data.`,
+
+      `Worked on an AI-powered chat platform enabling document uploads and natural language queries to extract insights via a 
+  conversational interface, collaborating with backend and AI teams.`,
+    ],
+    cname: "right pro",
+  },
+  {
+    name: "Kalvin TechSol Pvt.Ltd",
+    date: "Dec 2021 - April 2024",
+    technology: "Technology Used : React, Node.js, Express.js, MongoDB",
+    roleResponsibility: [`Developed backend APIs using Node.js, Express, and MongoDB for a healthcare platform, enabling seamless frontend 
+integration and improving system communication.`,
+      `
+Built an interactive chatbot to capture user requirements and automatically recommend suitable technologies, estimated 
+timelines, and project costs, while facilitating direct connection with project management`
+    ],
+    cname: "left pro",
+  },
+];

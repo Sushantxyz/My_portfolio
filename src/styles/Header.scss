@@ -12,41 +12,48 @@ nav {
   color: $colorb;
   border-bottom: 2px solid $colorb;
 
-  > h1 {
+  >h1 {
     font: 600 3rem "Roboto";
   }
 
-  > div {
+  .sections {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
     gap: 3rem;
 
-    > a {
+    >a {
       text-decoration: none;
       font: 600 1.2rem "Roboto";
       transition: 0.2s ease-in;
       color: $colorb;
+
       &:hover {
         scale: 1.2;
       }
     }
   }
 
-  > a {
-    button {
-      width: 5rem;
-      height: 2rem;
-      background-color: $colorb;
-      border: 2px solid $colorb;
-      color: $colorw;
-      font: 600 1rem "roboto";
-      transition: 0.2s ease-in;
-      backdrop-filter: 10px blur $colorb;
-      cursor: pointer;
-      &:hover {
-        background-color: $colorw;
-        color: $colorb;
+  .personalDetails {
+    gap: 1rem;
+    display: flex;
+
+    > a {
+      button {
+        width: 5rem;
+        height: 2rem;
+        background-color: $colorb;
+        border: 2px solid $colorb;
+        color: $colorw;
+        font: 600 1rem "roboto";
+        transition: 0.2s ease-in;
+        backdrop-filter: 10px blur $colorb;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $colorw;
+          color: $colorb;
+        }
       }
     }
   }
@@ -54,7 +61,8 @@ nav {
 
 #burger {
   display: none;
-  > button {
+
+  >button {
     color: $colorb;
     background-color: $bgcolor;
     display: block;
@@ -72,7 +80,7 @@ nav {
 }
 
 .hpheader {
-  > nav {
+  >nav {
     transition: all 0.6s;
     transform: translateY(-200%);
     background-color: $colorw;
@@ -87,27 +95,31 @@ nav {
     padding: 2rem 5rem;
     z-index: 100;
 
-    > h1 {
+    >h1 {
       padding-bottom: 2rem;
       color: $colorb;
     }
-    > a {
+
+    >a {
       transition: 0.3s ease;
       color: $colorb;
 
       padding: 1rem 0;
       font: 600 1.5rem "roboto";
       text-decoration: none;
+
       &:hover {
         transform: scale(1.2);
       }
-      > #btn1 {
+
+      >#btn1 {
         z-index: 20;
         background-color: $colorw;
         color: $colorb;
         font-size: 1.5rem;
         width: 100px;
         height: 40px;
+
         &:hover {
           transform: scale(1.1);
         }
@@ -117,7 +129,7 @@ nav {
 }
 
 .hpheadercomes {
-  > nav {
+  >nav {
     transform: translateY(0%);
   }
 }

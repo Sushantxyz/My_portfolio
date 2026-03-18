@@ -1,25 +1,27 @@
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import resume from "../assets/UpdatedResume.pdf";
+import resume from "../assets/Sushant_Resume_2026_V2.pdf";
 
 export const Header = ({ menuopen, setmenuopen }) => {
   return (
     <>
       <nav id="mainnav">
         <h1>Sushant</h1>
-        <div>
+        <div className="sections">
           <a href="#home">Home</a>
-          <a href="#work">Work</a>
+          <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
           <a href="#service-outer">Skills</a>
           <a href="#Contact">Contact Me</a>
         </div>
-        <a href="mailto:sushantjadhav2620@gmail.com">
-          <button>E-Mail</button>
-        </a>
-        <a download href={resume}>
-          <button>Resume</button>
-        </a>
+        <div className="personalDetails">
+          <a href="mailto:sushantjadhav2620@gmail.com">
+            <button>E-Mail</button>
+          </a>
+          <a download href={resume}>
+            <button>Resume</button>
+          </a>
+        </div>
       </nav>
       <span id="burger">
         <button onClick={() => setmenuopen(!menuopen)}>
@@ -39,8 +41,8 @@ export const Headerphone = ({ menuopen, setmenuopen }) => {
         <a href="#home" onClick={() => setmenuopen(false)}>
           Home
         </a>
-        <a href="#work" onClick={() => setmenuopen(false)}>
-          Work
+        <a href="#experience" onClick={() => setmenuopen(false)}>
+          Experience
         </a>
         <a href="#projects" onClick={() => setmenuopen(false)}>
           Projects
