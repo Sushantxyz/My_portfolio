@@ -11,7 +11,7 @@ import {
   AiOutlineSmile,
 } from "react-icons/ai";
 
-import { BsArrowUpRight} from "react-icons/bs";
+import { BsArrowUpRight } from "react-icons/bs";
 
 export const Home = () => {
   const animation = {
@@ -42,8 +42,9 @@ export const Home = () => {
               options={{
                 strings: [
                   "A React Developer",
-                  "A MERN STACK Developer",
-                  "Passionate in Development Field",
+                  "A MERN Stack Developer",
+                  "Passionate about building meaningful products",
+                  "Curious about how technology works",
                 ],
                 autoStart: true,
                 loop: true,
@@ -54,13 +55,13 @@ export const Home = () => {
           </div>
 
           <div id="div2">
-              <a href="mailto:sushantjadhav2620@gmail.com">
-              Hire me <BsArrowUpRight/>
-              </a>
+            <a href="mailto:sushantjadhav2620@gmail.com">
+              Hire me <BsArrowUpRight />
+            </a>
 
-              <a href="#work">
-                20+ Projects <AiOutlineFundProjectionScreen/>
-              </a>
+            <a href="#projects">
+              20+ Projects <AiOutlineFundProjectionScreen />
+            </a>
           </div>
 
           <div id="div3">

@@ -1,12 +1,16 @@
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import resume from "../assets/Sushant_Resume_2026_V2.pdf";
+import appLogo from "../assets/appLogo.png";
 
 export const Header = ({ menuopen, setmenuopen }) => {
   return (
     <>
       <nav id="mainnav">
-        <h1>Sushant</h1>
+        <img className="logoImg" width={50} height={50} src={appLogo} alt="App Logo" onClick={() => {
+          window.location.href = "/#home";
+        }}
+        />
         <div className="sections">
           <a href="#home">Home</a>
           <a href="#experience">Experience</a>
@@ -37,7 +41,10 @@ export const Headerphone = ({ menuopen, setmenuopen }) => {
     // <div className={`hpheader hpheadercomes`}>
     <div className={`hpheader ${menuopen ? "hpheadercomes" : ""}`}>
       <nav>
-        <h1>Sushant</h1>
+        <img className="logoImg" width={50} height={50} src={appLogo} alt="App Logo" onClick={() => {
+          window.location.href = "/#home";
+        }}
+        /> 
         <a href="#home" onClick={() => setmenuopen(false)}>
           Home
         </a>

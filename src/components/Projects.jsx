@@ -32,7 +32,7 @@ export const Projects = () => {
                     </ul>
                   </div>
 
-                  <a href={item.projectLink}>
+                  <a target="_blank" href={item.projectLink}>
                     <button>View project</button>
                   </a>
                 </section>

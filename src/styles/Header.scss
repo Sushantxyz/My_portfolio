@@ -11,7 +11,9 @@ nav {
   top: 0;
   color: $colorb;
   border-bottom: 2px solid $colorb;
-
+.logoImg{
+  cursor: pointer;
+}
   >h1 {
     font: 600 3rem "Roboto";
   }
