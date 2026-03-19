@@ -67,7 +67,7 @@ export const Headerphone = ({ menuopen, setmenuopen }) => {
           <button id="btn1">E-Mail</button>
         </a>
         <a download href={resume}>
-          <button>Resume</button>
+          <button id="btn2">Resume</button>
         </a>
       </nav>
     </div>

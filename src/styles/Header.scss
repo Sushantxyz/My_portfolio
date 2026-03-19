@@ -11,9 +11,11 @@ nav {
   top: 0;
   color: $colorb;
   border-bottom: 2px solid $colorb;
-.logoImg{
-  cursor: pointer;
-}
+
+  .logoImg {
+    cursor: pointer;
+  }
+
   >h1 {
     font: 600 3rem "Roboto";
   }
@@ -40,7 +42,7 @@ nav {
     gap: 1rem;
     display: flex;
 
-    > a {
+    >a {
       button {
         width: 5rem;
         height: 2rem;
@@ -114,10 +116,22 @@ nav {
         transform: scale(1.2);
       }
 
-      >#btn1 {
+      #btn1 {
         z-index: 20;
         background-color: $colorw;
         color: $colorb;
+        font-size: 1.5rem;
+        width: 100px;
+        height: 40px;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      #btn2 {
+        z-index: 20;
+        background-color: $colorb;
+        color: $colorw;
         font-size: 1.5rem;
         width: 100px;
         height: 40px;
