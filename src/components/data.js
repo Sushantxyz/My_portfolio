@@ -122,7 +122,7 @@ export const experience = [
     cname: "right pro",
   },
   {
-    name: "Kalvin TechSol Pvt.Ltd",
+    name: "Madul Tech Software Pvt.Ltd",
     date: "Dec 2021 - April 2024",
     technology: "Technology Used : React, Node.js, Express.js, MongoDB",
     roleResponsibility: [`Developed backend APIs using Node.js, Express, and MongoDB for a healthcare platform, enabling seamless frontend 
